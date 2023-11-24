@@ -1,7 +1,7 @@
 
-var modal = document.getElementById('myModal');
-var openModalBtn = document.getElementById('openModalBtn');
-var closeBtn = document.getElementById('closeBtn');
+let modal = document.getElementById('myModal');
+let openModalBtn = document.getElementById('openModalBtn');
+let closeBtn = document.getElementById('closeBtn');
 
 // Function to open the modal
 function openModal() {
