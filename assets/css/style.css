@@ -1,0 +1,29 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 5px;
+    border:2px solid mediumaquamarine;
+}
+button{
+    background-color: coral;
+    padding: 0.8rem;
+    color: #fff;
+    border-radius: 5px;
+}
+h2{
+   text-align: center;
+   color: green;
+}
+button:hover{
+   background-color: orange;
+}
+.closeBtn{
+   color:green;
+}
